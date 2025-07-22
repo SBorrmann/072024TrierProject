@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
 
-#define DHTPIN 10
+#define DHTPIN 10 // Test Comment
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 
