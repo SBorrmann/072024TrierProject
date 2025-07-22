@@ -20,7 +20,7 @@ void setup() {
 }
 
 void loop() {
-  static bool prevBtn = HIGH;
+  static bool prevBtn = HIGH; // test comment
   bool currBtn = digitalRead(BUTTON_PIN);
 
   if (prevBtn == HIGH && currBtn == LOW) {
